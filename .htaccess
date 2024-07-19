@@ -1,0 +1,8 @@
+# Disable Directory Listing
+Options -Indexes
+
+# Block access to sensitive files and directories
+<filesmatch "^\.git|^\.vscode|^sftp\.json|^sftp-config\.json|^sftp-settings\.json">
+    order allow,deny
+    deny from all
+</filesmatch>
