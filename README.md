@@ -5,7 +5,8 @@ Security configs and deployment tips for a secure Shopware 6 setup.
 ## Links
 
 - [Shopware 6 Security](https://docs.shopware.com/en/shopware-6-en/tutorials-and-faq/security-measures)
-- [Two Factor Authentication plugin](https://github.com/runelaenen/shopware6-two-factor-auth)
+- [Two Factor Authentication](https://github.com/runelaenen/shopware6-two-factor-auth)
+- [FroshTools](https://github.com/FriendsOfShopware/FroshTools)
 - [Update Shopware](https://www.thomaspeissl.com/blog/posts/2024-04-29-update-shopware-6-with-composer-update-no-scripts/)
 
 ## Usage
@@ -22,6 +23,7 @@ Security configs and deployment tips for a secure Shopware 6 setup.
 - You should always keep up to date with the latest version of Shopware and extensions
 - Verify backups are working
 - Verify production mode is enabled
+- Verify Shop Status (FroshTools)
 
 ## Advanced
 
