@@ -14,7 +14,7 @@
 # Disable directory browsing
 Options -Indexes
 
-# Block access dev folders
+# Protect dev folders
 <IfModule mod_rewrite.c>
     RewriteRule \.(git|svn|vscode|idea)(/.*)?$ - [F,NC]
 </IfModule>
