@@ -20,7 +20,7 @@ Security configs and deployment tips for a secure Shopware 6 setup.
 
 - Install/Update the Shopware Security Plugin
 - Update Shopware and apps/themes
-- Enable Two Factor Authentication for backend users
+- Enable Two Factor Authentication
 - Verify production mode is enabled
 - Verify backups are working
 - Verify Shop Status (FroshTools)
