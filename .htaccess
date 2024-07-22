@@ -18,4 +18,4 @@ Options -Indexes
 <IfModule mod_rewrite.c>
     RewriteRule \.(git|svn|vscode|idea)(/.*)?$ - [F,NC]
 </IfModule>
-# END wp-secure-deploy
+# END sw-secure-deploy
