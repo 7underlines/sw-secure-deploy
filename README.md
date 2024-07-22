@@ -5,7 +5,8 @@ Security configs and deployment tips for a secure Shopware 6 setup.
 ## Links
 
 - [Shopware 6 Security](https://docs.shopware.com/en/shopware-6-en/tutorials-and-faq/security-measures)
-- [Two Factor Authentication plugin](https://github.com/runelaenen/shopware6-two-factor-auth)]
+- [Two Factor Authentication plugin](https://github.com/runelaenen/shopware6-two-factor-auth)
+- [Update Shopware](https://www.thomaspeissl.com/blog/posts/2024-04-29-update-shopware-6-with-composer-update-no-scripts/)
 
 ## Usage
 
@@ -16,6 +17,7 @@ Security configs and deployment tips for a secure Shopware 6 setup.
 ## Recommendations
 
 - Use a creative admin user name
+- You should always keep up to date with the latest version Shopware and extensions
 
 ## Advanced
 
