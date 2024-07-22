@@ -20,7 +20,7 @@ Security configs and deployment tips for a secure Shopware 6 setup.
 - Use a creative admin user name
 - Install extensions as composer packages
 - You should always keep up to date with the latest version of Shopware and extensions
-- Verify the backups are working
+- Verify backups are working
 
 ## Advanced
 
