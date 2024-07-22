@@ -28,6 +28,5 @@ Security configs and deployment tips for a secure Shopware 6 setup.
 ## Advanced
 
 - Use a creative admin user name
-- Change the admin url slug to an arbitrary string using the SHOPWARE_ADMINISTRATION_PATH_NAME env variable
 - Setup stricter rate limits (shopware.yml)
 - Install extensions as composer packages
