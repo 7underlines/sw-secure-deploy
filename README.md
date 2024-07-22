@@ -13,7 +13,7 @@ Security configs and deployment tips for a secure Shopware 6 setup.
 ## Usage
 
 - Add code from [.htaccess](.htaccess) to your `.htaccess` file.  
-**Note:** to ensure the code is not overwritten by WordPress, place it outside the # BEGIN Shopware and # END Shopware tags.
+**Note:** to ensure the code is not overwritten by Shopware, place it outside the # BEGIN Shopware and # END Shopware tags.
 - Add code from [robots.txt](robots.txt) to your `robots.txt` file.
 
 ## Recommendations
