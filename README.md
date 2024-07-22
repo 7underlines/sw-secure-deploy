@@ -21,8 +21,9 @@ Security configs and deployment tips for a secure Shopware 6 setup.
 - Install extensions as composer packages
 - You should always keep up to date with the latest version of Shopware and extensions
 - Verify backups are working
+- Verify production mode is enabled
 
 ## Advanced
 
 - Change the admin url slug to an arbitrary string using the SHOPWARE_ADMINISTRATION_PATH_NAME env variable
-- Strict rate limits with shopware.yml
+- Setup stricter rate limits with shopware.yml
