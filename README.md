@@ -12,3 +12,12 @@ Security configs and deployment tips for a secure Shopware 6 setup.
 - Add code from [.htaccess](.htaccess) to your `.htaccess` file.  
 **Note:** to ensure the code is not overwritten by WordPress, place it outside the # BEGIN Shopware and # END Shopware tags.
 - Enable Two Factor Authentication
+
+## Recommendations
+
+- Use a creative admin user name
+
+## Advanced
+
+- Change the admin url slug to an arbitrary string using the SHOPWARE_ADMINISTRATION_PATH_NAME env variable
+- Strict rate limits with shopware.yml
