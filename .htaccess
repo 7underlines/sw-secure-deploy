@@ -1,8 +1,21 @@
-# Disable Directory Listing
+# BEGIN sw-secure-deploy
+# Disallow access to htaccess
+<FilesMatch "^(\.htaccess|\.htpasswd)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Protect sensitive files
+<FilesMatch "^(\.bashrc|sftp\.json|sftp-config\.json|sftp-settings\.json|\.deploy\.json)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Disable directory browsing
 Options -Indexes
 
-# Block access to sensitive files and directories
-<filesmatch "^\.git|^\.vscode|^sftp\.json|^sftp-config\.json|^sftp-settings\.json">
-    order allow,deny
-    deny from all
-</filesmatch>
+# Block access dev folders
+<IfModule mod_rewrite.c>
+    RewriteRule \.(git|svn|vscode|idea)(/.*)?$ - [F,NC]
+</IfModule>
+# END wp-secure-deploy
