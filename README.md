@@ -8,7 +8,6 @@ Security configs and deployment tips for a secure Shopware 6 setup.
 - [Shopware 6 Security Plugin](https://store.shopware.com/en/swag136939272659f/shopware-6-security-plugin.html)
 - [Two Factor Authentication](https://github.com/runelaenen/shopware6-two-factor-auth)
 - [FroshTools](https://github.com/FriendsOfShopware/FroshTools)
-- [Update Shopware](https://www.thomaspeissl.com/blog/posts/2024-04-29-update-shopware-6-with-composer-update-no-scripts/)
 
 ## Usage
 
@@ -19,8 +18,8 @@ All codes should be inserted right at the beginning of the files.
 
 ## Recommendations
 
-- Install/Update the Shopware Security Plugin
 - Update Shopware and apps/themes
+- Install/Update the Shopware Security Plugin
 - Enable Two Factor Authentication
 - Verify production mode is enabled
 - Verify backups are working
