@@ -17,6 +17,7 @@ All codes should be inserted right at the beginning of the files.
 - Add code from [robots.txt](robots.txt) to your `robots.txt` file.
 - Create file `config/packages/prod/z-monolog.yaml` and add code from [z-monolog.yaml](z-monolog.yaml).
 - Execute `bin/console cache:clear` to apply the changes.
+- Schedule periodically execution of `bin/console cache:clear` (see [cron.txt](cron.txt)).
 
 ## Recommendations
 
