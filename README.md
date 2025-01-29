@@ -15,6 +15,8 @@ All codes should be inserted right at the beginning of the files.
 
 - Add code from [.htaccess](.htaccess) to your `.htaccess` file.  
 - Add code from [robots.txt](robots.txt) to your `robots.txt` file.
+- Create folders and file `config/packages/prod/z-monolog.yaml` and add the code from [z-monolog.yaml](z-monolog.yaml).
+- Execute `bin/console cache:clear` to apply the changes.
 
 ## Recommendations
 

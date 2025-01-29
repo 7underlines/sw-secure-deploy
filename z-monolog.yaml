@@ -1,0 +1,4 @@
+monolog:
+    handlers:
+        nested:
+            max_files: 30
