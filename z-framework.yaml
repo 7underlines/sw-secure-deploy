@@ -1,0 +1,3 @@
+framework:
+    mailer:
+        message_bus: 'messenger.default_bus'
