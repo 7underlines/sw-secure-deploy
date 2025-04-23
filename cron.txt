@@ -1,1 +1,4 @@
-10 2 * * * php path-to-sw/bin/console cache:clear
+10 2 * * * bin/console cache:clear
+15 6 * * * bin/console scheduled-task:register
+*/5 * * * * bin/console scheduled-task:run --time-limit=295
+*/5 * * * * bin/console messenger:consume --time-limit=295 failed async low_priority
